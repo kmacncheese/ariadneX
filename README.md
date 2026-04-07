@@ -1,4 +1,4 @@
-**A**PI **R**esponse **I**nterposition for **A**utomated **D**iscovery of **N**ovel **Ex**ecution Paths
+> **A**PI **R**esponse **I**nterposition for **A**utomated **D**iscovery of **N**ovel **Ex**ecution Paths
 
 # The Problem
 Modern, sophisticated malware rarely exposes its full capabilities in a single execution and often saves further functionality for when the environment meets a very specific state. The most famous example of this is the classic case where a malware checks if it's in a VM. In reality, such checks can quickly increase in scale and complexity, making it extremely difficult to predict if you wanted to uncover novel execution paths in a malware. This isn't rare either, as a study from last year revealed that out of 1,078 Windows malware samples, 42.39% of them were hiding functionality that was completely invisible in a default sandbox run (Pfuzzer, EuroS&P 2025). Even with samples that appeared non-evasive, 70.64% had hidden execution paths that only triggered upon exact environmental conditions.

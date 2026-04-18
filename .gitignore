@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking
+.mypy_cache/
+.pyright/
+
+# macOS
+.DS_Store
+
+# Malware samples — never commit these
+samples/
+*.exe
+*.dll
+*.bin
+*.pcap
+
+# CAPE / DynamoRIO artifacts
+*.log
+*.dmp
+coverage_*.json
+reports/
+
+# Pfuzzer local stuff
+pfuzzer*
+
+# Vim 
+*.swp
